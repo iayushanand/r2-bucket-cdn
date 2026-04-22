@@ -1,6 +1,26 @@
-# CDN Panel
 
-A self-hosted file management dashboard built with Flask and Tailwind CSS. Files are stored on Cloudflare R2 and served through a custom domain. Metadata and expiration tracking are handled by MongoDB.
+<h1 align="center">CDN Panel</h1>
+
+<p align="center">
+  <img src="https://cdn.ayushanand.com/cdnimg.png" alt="CDN Panel Screenshot" width="700">
+</p>
+
+
+<p align="center">
+A self-hosted file management dashboard built with Flask and Tailwind CSS.<br>
+Files are stored on Cloudflare R2 and served through a custom domain.<br>
+Metadata and expiration tracking are handled by MongoDB.
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.10+-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/Flask-3.1-000000?style=flat-square&logo=flask&logoColor=white" alt="Flask">
+  <img src="https://img.shields.io/badge/Tailwind_CSS-4.2-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind CSS">
+  <img src="https://img.shields.io/badge/Cloudflare_R2-F38020?style=flat-square&logo=cloudflare&logoColor=white" alt="Cloudflare R2">
+  <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" alt="MongoDB">
+  <img src="https://img.shields.io/badge/License-GPL--3.0-blue?style=flat-square" alt="License">
+</p>
+
 
 ## Features
 
