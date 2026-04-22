@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+:root {
+    --bg: #fafaf5;
+    --bg-card: #ffffff;
+    --bg-hover: #f0f0e8;
+    --bg-stripe: #f5f5ec;
+    --text: #1a1a1a;
+    --text-muted: #666666;
+    --border: #c0c0c0;
+    --border-strong: #808080;
+    --accent: #0000ee;
+    --accent-hover: #551a8b;
+    --btn-bg: #e0e0d8;
+    --btn-hover: #d0d0c8;
+    --danger: #cc0000;
+    --danger-bg: #fff0f0;
+    --success: #006600;
+    --success-bg: #f0fff0;
+    --input-bg: #ffffff;
+    --progress: #0066cc;
+    --drop-border: #0066cc;
+    --drop-bg: #f0f5ff;
+    --select-bg: #ffffff;
+}
+
+.dark {
+    --bg: #0d1117;
+    --bg-card: #161b22;
+    --bg-hover: #1c2333;
+    --bg-stripe: #131820;
+    --text: #c9d1d9;
+    --text-muted: #8b949e;
+    --border: #30363d;
+    --border-strong: #484f58;
+    --accent: #58a6ff;
+    --accent-hover: #79c0ff;
+    --btn-bg: #21262d;
+    --btn-hover: #30363d;
+    --danger: #f85149;
+    --danger-bg: #1a0000;
+    --success: #3fb950;
+    --success-bg: #001a00;
+    --input-bg: #0d1117;
+    --progress: #58a6ff;
+    --drop-border: #58a6ff;
+    --drop-bg: #0d1520;
+    --select-bg: #161b22;
+}
+
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background-color: var(--bg);
+    color: var(--text);
+    transition: background-color 0.2s, color 0.2s;
+}
