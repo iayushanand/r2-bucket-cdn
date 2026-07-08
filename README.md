@@ -48,7 +48,7 @@ Metadata and expiration tracking are handled by MongoDB.
 ### 1. Clone the repository
 
 ```
-git clone https://github.com/yourusername/cdn-panel.git
+git clone https://github.com/iayushanand/cdn-panel.git
 cd cdn-panel
 ```
 
